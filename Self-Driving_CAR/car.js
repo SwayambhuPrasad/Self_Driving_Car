@@ -67,8 +67,10 @@ class Car{
         -this.height/2,
         this.width,
         this.height);
+        ctx.fillStyle= "#7E1925";
         ctx.fill();
-
+        ctx.strokeStyle = "#500810";
+        ctx.stroke();
         ctx.restore();
     }    
     
